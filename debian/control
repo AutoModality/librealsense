@@ -1,0 +1,14 @@
+Source: am-realsense
+Section: unknown
+Priority: optional
+Maintainer: unknown <jdamon@automodality.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/am-realsense.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/am-realsense.git
+
+Package: am-realsense
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Intel RealSense library

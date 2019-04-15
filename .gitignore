@@ -84,3 +84,8 @@ librealsense-log.txt
 *.ini
 *.cxx
 
+debian/am-realsense*
+debian/files
+debian/outfile
+debian/README*
+debian/.debhelper
